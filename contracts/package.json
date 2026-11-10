@@ -1,0 +1,21 @@
+{
+  "name": "farmer-subsidy-contracts",
+  "version": "1.0.0",
+  "description": "Solidity Smart Contracts for Blockchain-Based Farmer Subsidy Distribution System",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat",
+    "smart-contracts",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}

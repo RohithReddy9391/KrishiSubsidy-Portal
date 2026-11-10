@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Hardhat & Solidity
+artifacts/
+*/artifacts/
+cache/
+*/cache/
+typechain/
+typechain-types/
+
+# Frontend Build & Caches
+dist/
+*/dist/
+.vite/
+*/.vite/
+.vite-temp/
+
+# Uploads & Temporary Media (Keep directory structure)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
